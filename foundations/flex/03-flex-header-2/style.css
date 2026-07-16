@@ -13,6 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  padding:8px;
 }
 
 .profile-image {
@@ -48,7 +49,7 @@ ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  gap: 8px;
+  gap: 16px;
 }
 
 .left-align-items{
@@ -56,7 +57,6 @@ ul {
   justify-items: left;
   align-items: center;
   justify-content: flex-start;
-  gap: 8px;
 }
 
 .right-align-items{
@@ -65,5 +65,5 @@ ul {
   justify-items: right;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 16px;
 }
