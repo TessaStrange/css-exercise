@@ -10,7 +10,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content: center;
+  padding-bottom:32px;
 }
+
+.infodiv {
+  display:flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.infodiv div {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
